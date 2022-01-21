@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-21T13:57:31 EST" name="OpenCart TestSuite" finished-at="2022-01-21T14:02:13 EST" duration-ms="281819">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_AccountRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@659499f1]" name="test_account_Registration" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@51e69659]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_AccountRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@659499f1]" name="test_account_Registration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@51e69659]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2022-01-21T13:57:31 EST" name="OpenCart Tests" finished-at="2022-01-21T14:02:13 EST" duration-ms="281819">
+      <class name="testCases.TC_008_ProductDisplayPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ProductDisplayPage@26e356f0]" started-at="2022-01-21T14:00:15 EST" name="setup" finished-at="2022-01-21T14:00:16 EST" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_productdisplay()[pri:0, instance:testCases.TC_008_ProductDisplayPage@26e356f0]" started-at="2022-01-21T14:00:16 EST" name="test_productdisplay" finished-at="2022-01-21T14:00:34 EST" duration-ms="17257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_productdisplay -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_008_ProductDisplayPage@26e356f0]" started-at="2022-01-21T14:00:34 EST" name="teadDown" finished-at="2022-01-21T14:00:34 EST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_008_ProductDisplayPage -->
+      <class name="testCases.TC_010_ShoppingCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@4b8ee4de]" started-at="2022-01-21T14:00:50 EST" name="setup" finished-at="2022-01-21T14:00:51 EST" duration-ms="1123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@4b8ee4de]" started-at="2022-01-21T14:00:51 EST" name="test_ShoppingCart" finished-at="2022-01-21T14:01:30 EST" duration-ms="38915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ShoppingCart -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_010_ShoppingCart@4b8ee4de]" started-at="2022-01-21T14:01:30 EST" name="teadDown" finished-at="2022-01-21T14:01:31 EST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_010_ShoppingCart -->
+      <class name="testCases.TC_006_ProductCompare">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompare@4310d43]" started-at="2022-01-21T13:59:28 EST" name="setup" finished-at="2022-01-21T13:59:29 EST" duration-ms="1199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_productcompare()[pri:0, instance:testCases.TC_006_ProductCompare@4310d43]" started-at="2022-01-21T13:59:29 EST" name="test_productcompare" finished-at="2022-01-21T13:59:46 EST" duration-ms="17108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_productcompare -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_006_ProductCompare@4310d43]" started-at="2022-01-21T13:59:46 EST" name="teadDown" finished-at="2022-01-21T13:59:47 EST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_006_ProductCompare -->
+      <class name="testCases.TC_004Search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004Search@201a4587]" started-at="2022-01-21T13:58:54 EST" name="setup" finished-at="2022-01-21T13:58:55 EST" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_search()[pri:0, instance:testCases.TC_004Search@201a4587]" started-at="2022-01-21T13:58:55 EST" name="test_search" finished-at="2022-01-21T13:59:12 EST" duration-ms="17355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_search -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_004Search@201a4587]" started-at="2022-01-21T13:59:12 EST" name="teadDown" finished-at="2022-01-21T13:59:13 EST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_004Search -->
+      <class name="testCases.TC_011_Checkout">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_011_Checkout@27f981c6]" started-at="2022-01-21T14:01:31 EST" name="setup" finished-at="2022-01-21T14:01:32 EST" duration-ms="1278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_checkout()[pri:0, instance:testCases.TC_011_Checkout@27f981c6]" started-at="2022-01-21T14:01:32 EST" name="test_checkout" finished-at="2022-01-21T14:01:52 EST" duration-ms="19598" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at testCases.TC_011_Checkout.test_checkout(TC_011_Checkout.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_checkout -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_011_Checkout@27f981c6]" started-at="2022-01-21T14:01:52 EST" name="teadDown" finished-at="2022-01-21T14:01:52 EST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_011_Checkout -->
+      <class name="testCases.TC_012_MyAccount">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_012_MyAccount@1b11171f]" started-at="2022-01-21T14:01:52 EST" name="setup" finished-at="2022-01-21T14:01:53 EST" duration-ms="1289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Myaccount()[pri:0, instance:testCases.TC_012_MyAccount@1b11171f]" started-at="2022-01-21T14:01:53 EST" name="test_Myaccount" finished-at="2022-01-21T14:02:13 EST" duration-ms="19367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Myaccount -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_012_MyAccount@1b11171f]" started-at="2022-01-21T14:02:13 EST" name="teadDown" finished-at="2022-01-21T14:02:13 EST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_012_MyAccount -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@659499f1]" started-at="2022-01-21T13:57:32 EST" name="setup" finished-at="2022-01-21T13:57:37 EST" duration-ms="4851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistration@659499f1]" started-at="2022-01-21T13:57:37 EST" name="test_account_Registration" finished-at="2022-01-21T13:57:50 EST" duration-ms="12847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_001_AccountRegistration@659499f1]" started-at="2022-01-21T13:57:50 EST" name="teadDown" finished-at="2022-01-21T13:57:51 EST" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+      <class name="testCases.TC_002_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@51e69659]" started-at="2022-01-21T13:57:51 EST" name="setup" finished-at="2022-01-21T13:57:53 EST" duration-ms="1400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Login@51e69659]" started-at="2022-01-21T13:57:53 EST" name="test_Login" finished-at="2022-01-21T13:58:03 EST" duration-ms="10308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_002_Login@51e69659]" started-at="2022-01-21T13:58:03 EST" name="teadDown" finished-at="2022-01-21T13:58:04 EST" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_007_WishList">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_007_WishList@54a7079e]" started-at="2022-01-21T13:59:47 EST" name="setup" finished-at="2022-01-21T13:59:48 EST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_wishlist()[pri:0, instance:testCases.TC_007_WishList@54a7079e]" started-at="2022-01-21T13:59:48 EST" name="test_wishlist" finished-at="2022-01-21T14:00:15 EST" duration-ms="27195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_wishlist -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_007_WishList@54a7079e]" started-at="2022-01-21T14:00:15 EST" name="teadDown" finished-at="2022-01-21T14:00:15 EST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_007_WishList -->
+      <class name="testCases.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@47e2e487]" started-at="2022-01-21T13:58:04 EST" name="setup" finished-at="2022-01-21T13:58:05 EST" duration-ms="1291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@47e2e487]" started-at="2022-01-21T13:58:11 EST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-01-21T13:58:17 EST" duration-ms="5570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niravcolder6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Niks108]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@47e2e487]" started-at="2022-01-21T13:58:17 EST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-01-21T13:58:29 EST" duration-ms="12197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nirav@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[project1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@47e2e487]" started-at="2022-01-21T13:58:29 EST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-01-21T13:58:41 EST" duration-ms="12096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nir@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pro123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method signature="test_LoginDDT(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@47e2e487]" started-at="2022-01-21T13:58:41 EST" name="test_LoginDDT" data-provider="LoginData" finished-at="2022-01-21T13:58:53 EST" duration-ms="12046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_LoginDDT -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_003_LoginDDT@47e2e487]" started-at="2022-01-21T13:58:53 EST" name="teadDown" finished-at="2022-01-21T13:58:54 EST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_003_LoginDDT -->
+      <class name="testCases.TC_009_ForgotPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_009_ForgotPassword@47d9a273]" started-at="2022-01-21T14:00:34 EST" name="setup" finished-at="2022-01-21T14:00:35 EST" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_forgotpassword()[pri:0, instance:testCases.TC_009_ForgotPassword@47d9a273]" started-at="2022-01-21T14:00:35 EST" name="test_forgotpassword" finished-at="2022-01-21T14:00:50 EST" duration-ms="14504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_forgotpassword -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_009_ForgotPassword@47d9a273]" started-at="2022-01-21T14:00:50 EST" name="teadDown" finished-at="2022-01-21T14:00:50 EST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_009_ForgotPassword -->
+      <class name="testCases.TC_005_Addcart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_005_Addcart@61001b64]" started-at="2022-01-21T13:59:13 EST" name="setup" finished-at="2022-01-21T13:59:14 EST" duration-ms="1219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_addcart()[pri:0, instance:testCases.TC_005_Addcart@61001b64]" started-at="2022-01-21T13:59:14 EST" name="test_addcart" finished-at="2022-01-21T13:59:27 EST" duration-ms="13243" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at testCases.TC_005_Addcart.test_addcart(TC_005_Addcart.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addcart -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_005_Addcart@61001b64]" started-at="2022-01-21T13:59:27 EST" name="teadDown" finished-at="2022-01-21T13:59:28 EST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_005_Addcart -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- OpenCart TestSuite -->
+</testng-results>

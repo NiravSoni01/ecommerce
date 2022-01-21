@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart TestSuite" thread-count="2" parallel="tests">  
+
+<listeners>
+   <listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+
+   <test name="OpenCart Tests">
+      <parameter name="browser" value="chrome"/>
+         <classes>
+           	 	<class name="testCases.TC_001_AccountRegistration"/>
+                <class name="testCases.TC_002_Login"/>
+              <class name="testCases.TC_003_LoginDDT"/>
+              <class name="testCases.TC_004Search"/>
+              <class name="testCases.TC_005_Addcart"/>
+              <class name="testCases.TC_006_ProductCompare"/>
+              <class name="testCases.TC_007_WishList"/>
+              <class name="testCases.TC_008_ProductDisplayPage"/>
+              <class name="testCases.TC_009_ForgotPassword"/>
+              <class name="testCases.TC_010_ShoppingCart"/>
+              <class name="testCases.TC_011_Checkout"/>
+              <class name="testCases.TC_012_MyAccount"/>
+              
+        
+      </classes>
+   </test>
+      
+</suite>	  
+
